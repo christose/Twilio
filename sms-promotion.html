@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <form style="padding:20px;" method="POST" action="http://localhost:8081">
+        <div class="inputWrapper">
+            <span class="inputTitle">Enter Mobile Phone:</span>
+            <input name="phone" placeholder="Mobile Phone" required />
+        </div>
+
+        <div class="chkWrapper">
+            <input type="checkbox" name="agecheck" value="agecheck" required />
+            <span class="chkTitle">I am over 18</span>
+        </div>
+        <div class="chkWrapper">
+            <input type="checkbox" name="termscheck" value="termscheck" required />
+            <span class="chkTitle">I accept the terms and conditions</span>
+        </div>
+        <input style="padding:12px; margin-top:15px;" type="submit" value="Submit" />
+    </form>
+</body>
+</html>
